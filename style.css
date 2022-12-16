@@ -1,0 +1,148 @@
+@media all and (max-width:415px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    body{
+        height: 100vh;
+        background-image: url('./images/meetings-page-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 8px;
+    }
+    /* navbar */
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 18px;
+    }
+    .navbar .logo-box{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(-45deg,#fff 2%,pink);
+    }
+    .navbar ul,li{
+        display: flex;
+        align-items: center;
+        padding: 0 8px;
+    }
+    li a{
+        text-decoration: 0;
+        color: #fff;
+    }
+    /* block 1*/
+    .block-box-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        height: 20vh;
+    }
+    .box-img{
+        width: 45%;
+        height: 100%;
+        background-image: url('./images/hpme-img.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid gray;
+    }
+    .box-calc{
+        color: #fff;
+        width: 45%;
+        height: 100%;
+        padding: 5px;
+        font-size: 5px;
+    }
+
+    .btn{
+        padding: 0 4px;
+        color: #fff;
+        border: 2px solid #fff;
+        background: transparent;
+        font-size: 8px;
+    }
+    /* block2 */
+    .block-box-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        height: 20vh;
+    }
+    .box-img1{
+        width: 45%;
+        height: 100%;
+        background-image: url('./images/home-img1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid gray;
+    }
+    .box-calc1{
+        color: #fff;
+        width: 45%;
+        height: 100%;
+        padding: 5px;
+        font-size: 5px;
+    }
+    .btn1{
+        padding: 0 4px;
+        color: #fff;
+        border: 2px solid #fff;
+        background: transparent;
+        font-size: 8px;
+    }
+    /* block3 */
+    .block-box-3{
+        padding: 10px;
+        margin: 15px;
+    }
+    .block{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: 110px;
+        margin: 0 30px;
+    }
+    .box-ic{
+        width: 100px;
+        height: 100px;
+        border: 2px solid gray;
+    }
+    .box1{
+        background-image: url('./images/./2021rasm.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box2{
+        background-image: url('./images/2021.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box3{
+        background-image: url('./images/2021rasm\ 1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box4{
+        background-image: url('./images/stonks.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box5{
+        background-image: url('./images/img.jpg');
+        background-position: -15px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box6{
+        background-image: url('./images/ccc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
